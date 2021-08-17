@@ -2,9 +2,9 @@
 #include <WiFiUdp.h>
 
 // Set WiFi credentials
-#define WIFI_SSID "david"            //wifi name "TP-LINK_65C1BC"
-#define WIFI_PASS "88888888"         //wifi password "21971013"
-#define RECIVER_IP "192.168.43.101" //sender IP address "192.168.150.101"
+#define WIFI_SSID "david"            //wifi name ""
+#define WIFI_PASS "88888888"         //wifi password ""
+#define RECIVER_IP "192.168.43.101" //sender IP address ""
 #define UDP_PORT 6666
 WiFiUDP Udp;
 char packetBuffer[255];              //buffer to hold incoming packet
